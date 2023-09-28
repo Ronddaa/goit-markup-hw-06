@@ -771,8 +771,32 @@ footer {
 
 /* Modal Window END */
 
-/* Media Tablet START */
+/* Media Mobile START */
+
+@media (min-width: 320px) {
+  .container {
+        margin: 0 auto;
+        max-width: 428px;
+        padding: 0 15px;
+  }
+
+  .header{
+    padding: 17.5px 16px;
+  }
+
+  .wrapper-nav,
+  .address{
+        display: none;
+  }
+
+  .wrapper-burger-menu{
+    z-index: 50;
+  }
+
+  .icon-burger-menu{
+    fill: #2F2F37;
+  }
 
 
-
-/* Media Tablet END */
+}
+/* Media Mobile END */
