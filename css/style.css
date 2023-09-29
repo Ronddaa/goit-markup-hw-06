@@ -69,6 +69,10 @@ nav > ul > li > a{
     align-items: center;
 }
 
+.wrapper-burger-menu{
+    display: none;
+  }
+
 .wrapper-nav{
     display: flex;
     gap: 40px;
@@ -773,11 +777,12 @@ footer {
 
 /* Media Mobile START */
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 765px) {
   .container {
         margin: 0 auto;
         max-width: 428px;
         padding: 0 15px;
+        width: auto;
   }
 
   .header{
@@ -790,7 +795,7 @@ footer {
   }
 
   .wrapper-burger-menu{
-    z-index: 50;
+    display: block;
   }
 
   .icon-burger-menu{
