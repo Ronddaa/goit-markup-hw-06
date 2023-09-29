@@ -203,7 +203,7 @@ address > ul > li > a{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h2{
@@ -778,15 +778,17 @@ footer {
 /* Media Mobile START */
 
 @media (min-width: 320px) and (max-width: 765px) {
-  .container {
+  
+  /* Header Mobile START + container */
+  
+    .container {
         margin: 0 auto;
-        max-width: 428px;
-        padding: 0 15px;
         width: auto;
+        padding: 0 15px;
   }
 
   .header{
-    padding: 17.5px 16px;
+        padding: 17px 1px;
   }
 
   .wrapper-nav,
@@ -795,12 +797,82 @@ footer {
   }
 
   .wrapper-burger-menu{
-    display: block;
+        display: block;
+  }
+
+  .burger-menu-btn{
+        border: 0;
+        background-color: #fff;
   }
 
   .icon-burger-menu{
-    fill: #2F2F37;
+        fill: #2F2F37;
   }
+
+  /* Header Mobile END */
+
+  /* Section 1 Mobile START */
+
+  .title{
+    font-size: 36px;
+    max-width: 200px;
+    line-height: 1.11111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  /* Section 1 Mobile END */
+
+  /* Section 2 Mobile START */
+
+  .about{
+    padding: 96px 0;
+  }
+
+  .wrapper-about{
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .wrapper-about-icon{
+    display: none;
+  }
+
+  .about-li{
+    width: auto;
+  }
+
+  .title-thd{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  /* Section 2 Mobile END */
+
+  /* Section 3 Mobile START */
+
+  .our-team{
+    padding: 96px 0;
+  }
+
+  .wrapper-our-team{
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .title-snd{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  /* Section 3 Mobile END */
 
 
 }
