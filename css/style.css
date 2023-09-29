@@ -776,18 +776,21 @@ footer {
 
 /* Media Mobile START */
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 768px){
   
   /* Header Mobile START + container */
   
     .container {
-        margin: 0 auto;
+        
         width: auto;
+        margin: 0 auto;
+        
         padding: 0 15px;
     }
 
     .header{
         padding: 17px 1px;
+        width: auto;
     }
 
     .wrapper-nav,
@@ -945,9 +948,20 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1157px){
 
+    .container{
+        width: auto;
+    }
+
+    /* Tablet Header Start */
+
     
+
+    /* Section About END */
+
+
 
 
 }
+
 
 /* Media Tablet END */
