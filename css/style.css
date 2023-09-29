@@ -479,7 +479,6 @@ ul > li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin: 0;
     margin-bottom: 16px;
 }
 
@@ -891,6 +890,54 @@ footer {
   }
 
   /* Section 4 Mobile END */
+
+  /* Footer START */
+
+  .footer{
+    padding: 96px 0;
+  }
+
+  .wrapper-footer{
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+  }
+
+  .wrapper-footer-logo{
+    margin: 0 auto;
+  }
+
+  .logo-footer{
+    display: block;
+    text-align: center;
+    margin: 0 auto 17px;
+  }
+
+  .wrapper-subscribe{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .subscribe-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper-social-media{
+    margin: 0 auto;
+  }
+
+  .social-media-p{
+    display: block;
+    text-align: center;
+  }
+
+  .subscribe-btn{
+    max-width: 165px;
+    margin: 0 auto;
+  }
+
+  /* Fotter END */
 
 
 }
