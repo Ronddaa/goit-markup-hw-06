@@ -1047,15 +1047,26 @@ footer {
     .wrapper-portfolio{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 72px 24px;
+        
     }
 
     .portfolio-li{
         max-width: 356px;
+        margin: 0 auto;
     }
 
     /* Section Portfolio END */
 
+    /* Footer Tablet START */
 
+    .wrapper-footer{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /* Footer Tablet END */
 }
 
 
