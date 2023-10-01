@@ -776,7 +776,7 @@ footer {
 
 /* Media Mobile START */
 
-@media (max-width: 768px){
+@media (min-width: 320px){
   
   /* Header Mobile START + container */
   
@@ -946,10 +946,10 @@ footer {
 
 /* Media Tablet START */
 
-@media (min-width: 768px) and (max-width: 1157px){
+@media (min-width: 768px){
 
     .container{
-        max-width: 1120px;
+        max-width: 720px;
         width: auto;
     }
 
