@@ -776,7 +776,7 @@ footer {
 
 /* Media Mobile START */
 
-@media (min-width: 320px){
+@media (max-width: 1157px){
   
   /* Header Mobile START + container */
   
