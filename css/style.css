@@ -952,6 +952,33 @@ footer {
     }
 
   /* Fotter END */
+
+  /* Start modal window Phone */
+
+    .modal-window{
+        width: 288px;
+    }
+
+  /* End modal window Phone */
+
+  /* Burger menu START */
+
+    .wrapper-burger-menu.is-open{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        width: 320px;
+        min-height: 600px;
+        background: #fcfcfc;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 72px 24px 24px 24px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+  /* Burger menu END */
 }
 /* Media Mobile END */
 
