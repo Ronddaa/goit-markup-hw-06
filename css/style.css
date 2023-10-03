@@ -954,7 +954,86 @@ footer {
 
   /* Burger menu START */
 
-    
+    .wrapper-burger-menu{
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        width: 320px;
+        min-height: 640px;
+        background: #fcfcfc;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 72px 24px 24px 24px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 70px 16px 38px;
+    }
+
+    .wrapper-burger-menu.is-open{
+        display: block;
+    }
+
+    .close-burger-menu{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .wrapper-burger-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+
+    .burger-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .burger-nav-li{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11111;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .burger-address{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .burger-address-li{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: #434455;
+    }
+
+    .burger-nav-li:hover,
+    .burger-nav-li:focus {
+        color:#404BBF;
+    }
+
+    .burger-address-li:hover,
+    .burger-address-li:focus {
+        color: #4D5AE5;
+    }
 
   /* Burger menu END */
 }
