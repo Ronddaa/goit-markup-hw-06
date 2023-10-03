@@ -955,7 +955,8 @@ footer {
   /* Burger menu START */
 
     .wrapper-burger-menu{
-        display: none;
+        visibility: hidden;
+        opacity: 0;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -971,7 +972,8 @@ footer {
     }
 
     .wrapper-burger-menu.is-open{
-        display: block;
+        visibility: visible;
+        opacity: 1;
     }
 
     .close-burger-menu{
@@ -1054,7 +1056,7 @@ footer {
         padding: 0;
     }
 
-    .icon-burger-menu{
+    .wrapper-burger-btn{
         display: none;
     }
 
