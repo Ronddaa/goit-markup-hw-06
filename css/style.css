@@ -69,7 +69,11 @@ nav > ul > li > a{
     align-items: center;
 }
 
-.burger-menu{
+.wrapper-burger-btn{
+    display: none;
+}
+
+.wrapper-burger-menu{
     display: none;
   }
 
@@ -944,17 +948,16 @@ footer {
 
   /* Fotter END */
 
-  /* Start modal window Phone */
-
-    .modal-window{
-        width: 288px;
-    }
-
-  /* End modal window Phone */
-
   /* Burger menu START */
 
+    .wrapper-burger-btn{
+        display: block;
+        border: 0;
+        background-color: transparent;
+    }
+
     .wrapper-burger-menu{
+        display: block;
         visibility: hidden;
         opacity: 0;
         position: fixed;
@@ -1040,6 +1043,16 @@ footer {
   /* Burger menu END */
 }
 /* Media Mobile END */
+
+/* Start modal window Phone */
+
+@media (max-width:767px){
+    .modal-window{
+        width: 288px;
+    }
+}
+
+  /* End modal window Phone */
 
 /* Media Tablet START */
 
