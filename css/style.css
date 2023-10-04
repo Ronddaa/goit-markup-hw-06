@@ -814,6 +814,10 @@ footer {
         fill: #2F2F37;
     }
 
+    .address-link{
+        font-size: 12px;
+    }
+
     /* Header Mobile END */
 
     /* Section 1 Mobile START */
@@ -827,6 +831,14 @@ footer {
         line-height: 1.11111;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+    }
+
+    .solution-business{
+        padding: 72px 0;
+    }
+
+    .btn-service{
+        margin-bottom: 0;
     }
 
     /* Section 1 Mobile END */
@@ -1097,6 +1109,7 @@ footer {
     /* Header Tablet END  */
 
     /* Section Solutiun START */
+
 
     .title{
         font-size: 56px;
