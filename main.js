@@ -1,1 +1,6 @@
-export const newArray = ["./images/mark-guerrero.jpg", "./images/tom-ford.jpg", "./images/camila-garcia.jpg", "./images/daniel-wilson.jpg"];
+export const newArray = [
+    document.querySelector('.team-mark'),
+    document.querySelector('.team-tom'),
+    document.querySelector('.team-camila'),
+    document.querySelector('.team-den'),
+];
